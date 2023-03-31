@@ -1,8 +1,10 @@
+import json
+
 # full path to file
 pathToFile = "C:/Users/emman/Downloads/birthday.json"
 
 
-# try to open a file and throw a error if it is not found
+#  throw an error if name is not found
 try:
     jsonFile = open(pathToFile, 'r')
 except OSError:
